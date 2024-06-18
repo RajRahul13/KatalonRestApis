@@ -39,6 +39,8 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 RunConfiguration.setDriverPreferencesProperty( 'Remote', 'name', GlobalVariable.sTestCaseName)
 
+CustomKeywords.'frameworkFunctions.Auth.AuthGenerate'() //check setup in GET_AuthToken -> HttpHeader
+
 String testcasename=RunConfiguration.getExecutionSource().toString().substring(RunConfiguration.getExecutionSource().toString().lastIndexOf("\\")+1)
 testcasename = testcasename.substring(0, testcasename.length()-3)
 GlobalVariable.sTestCaseName=testcasename
