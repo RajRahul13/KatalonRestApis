@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "4B55366A1E2DEBD3D3585AF8B7ACFE64",
+  "keywordClasses": [
+    {
+      "name": "frameworkFunctions.UtilityLib",
+      "keywordMethods": [
+        {
+          "name": "CurrentDateTime_UF",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "CreateFolder_UF",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
