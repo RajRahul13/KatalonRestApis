@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SamplePost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59018de9-3682-459c-87ec-7eff8911a530</testCaseGuid>
+   <variable>
+      <defaultValue>'api/users'</defaultValue>
+      <description></description>
+      <id>12a6623b-eb2e-44b4-b294-a19d7ad49b08</id>
+      <masked>false</masked>
+      <name>resourcePOST</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n\t&quot;name&quot;:&quot;morpheus&quot;,\r\n\t&quot;job&quot;:&quot;leader&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>eb0df83f-174b-4381-a729-8bd99a8c9302</id>
+      <masked>false</masked>
+      <name>requestBodyPOST</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SamplePUT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e18680cf-e9a5-44a8-b902-a598420da67f</testCaseGuid>
+   <variable>
+      <defaultValue>'api/users/2'</defaultValue>
+      <description></description>
+      <id>cbb75f0f-40e8-4b05-88ff-600cd94ac3fd</id>
+      <masked>false</masked>
+      <name>resourcePUT</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n\t&quot;name&quot;:&quot;morpheus&quot;,\r\n\t&quot;job&quot;:&quot;new Opputunity&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>d0829630-9709-42e7-995e-48fa4337ff35</id>
+      <masked>false</masked>
+      <name>requestBodyPUT</name>
+   </variable>
+</TestCaseEntity>
